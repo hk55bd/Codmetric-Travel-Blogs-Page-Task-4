@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Diaries | Stories & Experiences</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<nav>
+<h2>🌍 Travel Diaries</h2>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#stories">Stories</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+<section class="hero" id="home">
+<div class="hero-content">
+<h1>
+Explore The World Through Stories
+</h1>
+<p>
+Discover beautiful destinations, unforgettable journeys,
+and real travel experiences shared through stories.
+</p>
+<a href="#stories" class="btn">
+Explore Stories
+</a>
+</div>
+</section>
+<section class="stories" id="stories">
+<h2>
+Latest Travel Stories
+</h2>
+<div class="blog-container">
+<div class="card">
+<img src="https://images.unsplash.com/photo-1528127269322-539801943592">
+<h3>
+🏔️ A Journey Through Northern Pakistan
+</h3>
+<p>
+Explore the beauty of Hunza Valley, peaceful lakes,
+mountains and amazing local culture.
+</p>
+<button onclick="showStory('hunza')">
+View Story
+</button>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+<h3>
+🌊 Memories From A Beach Escape
+</h3>
+<p>
+A relaxing journey beside the ocean with beautiful
+sunsets and peaceful moments.
+</p>
+<button onclick="showStory('beach')">
+View Story
+</button>
+</div>
+<div class="card">
+<img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200">
+<h3>
+🏛️ Exploring Historical Turkey
+</h3>
+<p>
+Discover Istanbul's historical places,
+architecture and traditions.
+</p>
+<button onclick="showStory('turkey')">
+View Story
+</button>
+</div>
+</div>
+</section>
+<section class="full-story" id="fullStory">
+<h2 id="storyTitle"></h2>
+<p id="storyText"></p>
+<div id="details"></div>
+</section>
+<section class="gallery" id="gallery">
+<h2>
+Travel Gallery
+</h2>
+<div class="gallery-container">
+<img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b">
+<img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963">
+<img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a">
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
+<img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+<img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e">
+</div>
+</section>
+<section class="contact" id="contact">
+<h2>
+Contact Us
+</h2>
+<form>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea placeholder="Your Message"></textarea>
+<button>
+Send Message
+</button>
+</form>
+</section>
+<footer>
+<p>
+© 2026 Travel Diaries | Sharing Stories Around The World
+</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
